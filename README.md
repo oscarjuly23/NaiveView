@@ -23,5 +23,9 @@ El número de clientes que pueden conectarse a un servidor puede verse limitado 
 ### Orden de Atención a Clientes:
 No se puede garantizar un orden de atención a los clientes basado en el principio de "First Come, First Serve", lo que implica que un cliente podría sufrir de "starvation".
 
+##  
+- @author: Oscar Julian - Bernat Segura
+- @date: October 2022
+
 ### Cuello de Botella:
 Existe la posibilidad de un cuello de botella, especialmente si algún cliente tarda mucho en enviar datos y el servidor está esperando con la variable bloqueada. Esta limitación podría abordarse parcialmente mediante el uso de timeouts.
